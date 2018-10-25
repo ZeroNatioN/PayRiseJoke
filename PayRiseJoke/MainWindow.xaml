@@ -8,5 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Would you like to get a pay rise?" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Height="46" Width="339" FontSize="22"/>
+        <Button x:Name="btnYes" Content="YES" HorizontalAlignment="Left" Margin="200,164,0,0" VerticalAlignment="Top" Width="150" Height="75" FontSize="20" MouseEnter="btnYes_MouseEnter" />
+        <Button x:Name="btnNo" Content="NO" HorizontalAlignment="Right" Margin="0,164,200,0" VerticalAlignment="Top" Width="150" Height="75" FontSize="20" Click="btnNo_Click"/>
+        <Label x:Name="lblAnswer" Content="" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
